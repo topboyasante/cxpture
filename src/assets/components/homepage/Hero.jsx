@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <main className='pt-[10vh]'>
+    <main className='pt-[8vh]'>
         <section className='max-w-[1600px] lg:h-[100vh] mx-auto px-5'>
             <section className='mb-3'>
                 <h1 className='text-3xl md:text-5xl lg:text-7xl uppercase'>//Capturing Your Best Experiences</h1>
