@@ -80,7 +80,7 @@ function Navbar() {
   return (
     <>
       <nav className='w-full h-[10vh] fixed top-0 left-0 p-5 z-[50]'>
-          <section className='max-w-[1600px] mx-auto flex justify-between items-center'>
+          <section className='max-w-[1600px] mx-auto flex justify-between items-center nav-main'>
               {/* Logo */}
               <section>
                 <span className='text-3xl '>CXPTURE/</span>
@@ -98,7 +98,7 @@ function Navbar() {
               <span className='text-3xl text-white'>CXPTURE/</span>
           </section>
           <section>
-              <CiMenuFries size={30} color='white' onClick={closeNavbar}/>
+              <CiMenuFries size={30} color='white' onClick={closeNavbar} className=''/>
           </section>
         </section>
         {/* NavLinks */}
