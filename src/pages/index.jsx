@@ -1,4 +1,6 @@
 import AboutUs from '@/assets/components/homepage/AboutUs'
+import Contact from '@/assets/components/homepage/Contact'
+import FeaturedWorks from '@/assets/components/homepage/FeaturedWorks'
 import Hero from '@/assets/components/homepage/Hero'
 import Head from 'next/head'
 import React from 'react'
@@ -16,6 +18,8 @@ function index() {
       <main className="noise">
         <Hero/>
         <AboutUs/>
+        <FeaturedWorks/>
+        <Contact/>
       </main>
     </>
   )
